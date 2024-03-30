@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.house {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.house img {
+    width: 100%;
+    height: auto;
+}
+
+.details {
+    padding: 10px;
+    background-color:#f8f9fa;
+}
+
+.details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media ul li:last-child {
+    margin-right: 0;
+}
