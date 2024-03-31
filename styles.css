@@ -88,3 +88,22 @@ footer {
 .social-media ul li:last-child {
     margin-right: 0;
 }
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-button img {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-button img:hover {
+    transform: scale(1.1);
+}
